@@ -11,7 +11,7 @@ export const ALL_ROUTES: Array<IRoute> = [
     name: 'Redirect',
     hidden: true,
     path: '*',
-    element: <Navigate to={`/${ERoutesPath.HOME}`} />,
+    element: <Navigate to={ERoutesPath.HOME} />,
   },
   {
     name: 'Página Inicial',
