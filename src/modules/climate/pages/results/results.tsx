@@ -44,7 +44,7 @@ export function ClimateResults() {
         <Grid item sm={4} md={4} xl={4}>
           <Paper elevation={3}>
             <ResultDoughnut
-              title='Precipitação'
+              title='Precipitação (mm)'
               labels={[EMonthsTranslate[climate.month as EMonths], 'Anual']}
               datasets={[
                 {
@@ -59,7 +59,7 @@ export function ClimateResults() {
         <Grid item sm={4} md={4} xl={4}>
           <Paper elevation={3}>
             <ResultBars
-              title='Umidade'
+              title='Umidade (%)'
               labels={[EMonthsTranslate[climate.month as EMonths], 'Anual']}
               datasets={[
                 {
@@ -74,7 +74,7 @@ export function ClimateResults() {
         <Grid item sm={4} md={4} xl={4}>
           <Paper elevation={3}>
             <ResultPie
-              title='Vento'
+              title='Vento (m/s)'
               labels={[EMonthsTranslate[climate.month as EMonths], 'Anual']}
               datasets={[
                 {
