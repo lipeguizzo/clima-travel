@@ -30,12 +30,12 @@ export function HomeWelcome() {
           }}
         >
           <Typography component='h1' variant='h4'>
-            Bem vindo ao Clima Travel!
+            Bem-vindo ao Clima Travel!
           </Typography>
 
           <Typography component='p' variant='body1' textAlign='center'>
-            Este protótipo tem como função principal prever determinados dados climaticos apartir de
-            documentos disponibilizados pelo governo ao passar dos anos.
+            Este protótipo tem como função principal prever determinados dados climáticos a partir
+            de documentos disponibilizados pelo governo ao passar dos anos.
           </Typography>
 
           <Typography component='p' variant='body1' textAlign='center'>

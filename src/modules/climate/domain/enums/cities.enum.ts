@@ -12,6 +12,6 @@ export enum ECitiesTranslate {
   LAGES = 'Lages',
   BOM_JESUS = 'Bom Jesus',
   PELOTAS = 'Pelotas',
-  CHAPECO = 'Chapeco',
+  CHAPECO = 'Chapecó',
   CURITIBA = 'Curitiba',
 }
